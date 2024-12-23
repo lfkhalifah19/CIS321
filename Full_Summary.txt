@@ -1,0 +1,480 @@
+Test #1 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.37
+Random State: 35
+Submission File: /content/drive/MyDrive/tests/1_Decision_Tree_Gini_Test.csv
+
+Test #1 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.37
+Random State: 35
+Submission File: /content/drive/MyDrive/tests/1_Decision_Tree_Entropy_Test.csv
+
+Test #1 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.37
+Random State: 35
+Submission File: /content/drive/MyDrive/tests/1_Random_Forest_10_Estimators_Test.csv
+
+Test #1 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.37
+Random State: 35
+Submission File: /content/drive/MyDrive/tests/1_Random_Forest_50_Estimators_Test.csv
+
+Test #1 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.81
+Test Size: 0.37
+Random State: 35
+Submission File: /content/drive/MyDrive/tests/1_KNN_K=5_Test.csv
+
+Test #1 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.81
+Test Size: 0.37
+Random State: 35
+Submission File: /content/drive/MyDrive/tests/1_KNN_K=10_Test.csv
+
+Test #2 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.27
+Random State: 89
+Submission File: /content/drive/MyDrive/tests/2_Decision_Tree_Gini_Test.csv
+
+Test #2 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.27
+Random State: 89
+Submission File: /content/drive/MyDrive/tests/2_Decision_Tree_Entropy_Test.csv
+
+Test #2 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.83
+Test Size: 0.27
+Random State: 89
+Submission File: /content/drive/MyDrive/tests/2_Random_Forest_10_Estimators_Test.csv
+
+Test #2 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.83
+Test Size: 0.27
+Random State: 89
+Submission File: /content/drive/MyDrive/tests/2_Random_Forest_50_Estimators_Test.csv
+
+Test #2 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.81
+Test Size: 0.27
+Random State: 89
+Submission File: /content/drive/MyDrive/tests/2_KNN_K=5_Test.csv
+
+Test #2 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 10, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.27
+Random State: 89
+Submission File: /content/drive/MyDrive/tests/2_KNN_K=10_Test.csv
+
+Test #3 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.28
+Random State: 12
+Submission File: /content/drive/MyDrive/tests/3_Decision_Tree_Gini_Test.csv
+
+Test #3 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.28
+Random State: 12
+Submission File: /content/drive/MyDrive/tests/3_Decision_Tree_Entropy_Test.csv
+
+Test #3 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.28
+Random State: 12
+Submission File: /content/drive/MyDrive/tests/3_Random_Forest_10_Estimators_Test.csv
+
+Test #3 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.28
+Random State: 12
+Submission File: /content/drive/MyDrive/tests/3_Random_Forest_50_Estimators_Test.csv
+
+Test #3 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 10, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.28
+Random State: 12
+Submission File: /content/drive/MyDrive/tests/3_KNN_K=5_Test.csv
+
+Test #3 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.28
+Random State: 12
+Submission File: /content/drive/MyDrive/tests/3_KNN_K=10_Test.csv
+
+Test #4 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.3
+Random State: 68
+Submission File: /content/drive/MyDrive/tests/4_Decision_Tree_Gini_Test.csv
+
+Test #4 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.3
+Random State: 68
+Submission File: /content/drive/MyDrive/tests/4_Decision_Tree_Entropy_Test.csv
+
+Test #4 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.3
+Random State: 68
+Submission File: /content/drive/MyDrive/tests/4_Random_Forest_10_Estimators_Test.csv
+
+Test #4 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.3
+Random State: 68
+Submission File: /content/drive/MyDrive/tests/4_Random_Forest_50_Estimators_Test.csv
+
+Test #4 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.84
+Test Size: 0.3
+Random State: 68
+Submission File: /content/drive/MyDrive/tests/4_KNN_K=5_Test.csv
+
+Test #4 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.81
+Test Size: 0.3
+Random State: 68
+Submission File: /content/drive/MyDrive/tests/4_KNN_K=10_Test.csv
+
+Test #5 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.36
+Random State: 23
+Submission File: /content/drive/MyDrive/tests/5_Decision_Tree_Gini_Test.csv
+
+Test #5 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.36
+Random State: 23
+Submission File: /content/drive/MyDrive/tests/5_Decision_Tree_Entropy_Test.csv
+
+Test #5 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.36
+Random State: 23
+Submission File: /content/drive/MyDrive/tests/5_Random_Forest_10_Estimators_Test.csv
+
+Test #5 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.36
+Random State: 23
+Submission File: /content/drive/MyDrive/tests/5_Random_Forest_50_Estimators_Test.csv
+
+Test #5 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.36
+Random State: 23
+Submission File: /content/drive/MyDrive/tests/5_KNN_K=5_Test.csv
+
+Test #5 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.36
+Random State: 23
+Submission File: /content/drive/MyDrive/tests/5_KNN_K=10_Test.csv
+
+Test #6 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.37
+Random State: 51
+Submission File: /content/drive/MyDrive/tests/6_Decision_Tree_Gini_Test.csv
+
+Test #6 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.37
+Random State: 51
+Submission File: /content/drive/MyDrive/tests/6_Decision_Tree_Entropy_Test.csv
+
+Test #6 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.37
+Random State: 51
+Submission File: /content/drive/MyDrive/tests/6_Random_Forest_10_Estimators_Test.csv
+
+Test #6 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.37
+Random State: 51
+Submission File: /content/drive/MyDrive/tests/6_Random_Forest_50_Estimators_Test.csv
+
+Test #6 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.37
+Random State: 51
+Submission File: /content/drive/MyDrive/tests/6_KNN_K=5_Test.csv
+
+Test #6 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.37
+Random State: 51
+Submission File: /content/drive/MyDrive/tests/6_KNN_K=10_Test.csv
+
+Test #7 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.82
+Test Size: 0.26
+Random State: 100
+Submission File: /content/drive/MyDrive/tests/7_Decision_Tree_Gini_Test.csv
+
+Test #7 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.82
+Test Size: 0.26
+Random State: 100
+Submission File: /content/drive/MyDrive/tests/7_Decision_Tree_Entropy_Test.csv
+
+Test #7 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.26
+Random State: 100
+Submission File: /content/drive/MyDrive/tests/7_Random_Forest_10_Estimators_Test.csv
+
+Test #7 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.26
+Random State: 100
+Submission File: /content/drive/MyDrive/tests/7_Random_Forest_50_Estimators_Test.csv
+
+Test #7 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 10, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.84
+Test Size: 0.26
+Random State: 100
+Submission File: /content/drive/MyDrive/tests/7_KNN_K=5_Test.csv
+
+Test #7 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 10, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.84
+Test Size: 0.26
+Random State: 100
+Submission File: /content/drive/MyDrive/tests/7_KNN_K=10_Test.csv
+
+Test #8 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.28
+Random State: 59
+Submission File: /content/drive/MyDrive/tests/8_Decision_Tree_Gini_Test.csv
+
+Test #8 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.28
+Random State: 59
+Submission File: /content/drive/MyDrive/tests/8_Decision_Tree_Entropy_Test.csv
+
+Test #8 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.83
+Test Size: 0.28
+Random State: 59
+Submission File: /content/drive/MyDrive/tests/8_Random_Forest_10_Estimators_Test.csv
+
+Test #8 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.28
+Random State: 59
+Submission File: /content/drive/MyDrive/tests/8_Random_Forest_50_Estimators_Test.csv
+
+Test #8 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.28
+Random State: 59
+Submission File: /content/drive/MyDrive/tests/8_KNN_K=5_Test.csv
+
+Test #8 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 10, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.28
+Random State: 59
+Submission File: /content/drive/MyDrive/tests/8_KNN_K=10_Test.csv
+
+Test #9 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.82
+Test Size: 0.36
+Random State: 38
+Submission File: /content/drive/MyDrive/tests/9_Decision_Tree_Gini_Test.csv
+
+Test #9 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.82
+Test Size: 0.36
+Random State: 38
+Submission File: /content/drive/MyDrive/tests/9_Decision_Tree_Entropy_Test.csv
+
+Test #9 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.36
+Random State: 38
+Submission File: /content/drive/MyDrive/tests/9_Random_Forest_10_Estimators_Test.csv
+
+Test #9 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.36
+Random State: 38
+Submission File: /content/drive/MyDrive/tests/9_Random_Forest_50_Estimators_Test.csv
+
+Test #9 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.81
+Test Size: 0.36
+Random State: 38
+Submission File: /content/drive/MyDrive/tests/9_KNN_K=5_Test.csv
+
+Test #9 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 10, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.83
+Test Size: 0.36
+Random State: 38
+Submission File: /content/drive/MyDrive/tests/9_KNN_K=10_Test.csv
+
+Test #10 Full Summary
+Model: Decision Tree Gini
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.32
+Random State: 28
+Submission File: /content/drive/MyDrive/tests/10_Decision_Tree_Gini_Test.csv
+
+Test #10 Full Summary
+Model: Decision Tree Entropy
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Validation Accuracy: 0.81
+Test Size: 0.32
+Random State: 28
+Submission File: /content/drive/MyDrive/tests/10_Decision_Tree_Entropy_Test.csv
+
+Test #10 Full Summary
+Model: Random Forest 10 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.83
+Test Size: 0.32
+Random State: 28
+Submission File: /content/drive/MyDrive/tests/10_Random_Forest_10_Estimators_Test.csv
+
+Test #10 Full Summary
+Model: Random Forest 50 Estimators
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+Validation Accuracy: 0.84
+Test Size: 0.32
+Random State: 28
+Submission File: /content/drive/MyDrive/tests/10_Random_Forest_50_Estimators_Test.csv
+
+Test #10 Full Summary
+Model: KNN K=5
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.84
+Test Size: 0.32
+Random State: 28
+Submission File: /content/drive/MyDrive/tests/10_KNN_K=5_Test.csv
+
+Test #10 Full Summary
+Model: KNN K=10
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+Validation Accuracy: 0.81
+Test Size: 0.32
+Random State: 28
+Submission File: /content/drive/MyDrive/tests/10_KNN_K=10_Test.csv
+
